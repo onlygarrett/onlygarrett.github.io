@@ -22,7 +22,9 @@ const default_configuration = {
     engines: {
       d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
       g: ["https://google.com/search?q=", "Google"],
-      gm: ["https://www.google.com/maps?q=", "Google Maps"]
+      gm: ["https://www.google.com/maps?q=", "Google Maps"],
+      yt: ["https://www.youtube.com/results?search_query=", "YouTube"],
+      x: ["https://x.com/search?q=", "X"],
     },
     default: "d",
   },
@@ -32,7 +34,7 @@ const default_configuration = {
   disabled: [],
   localIcons: true,
   localFonts: true,
-  fastlink: "https://duckduckgo.com",
+  fastlink: "https://github.com/onlygarrett/onlygarrett.github.io",
   openLastVisitedTab: true,
   tabs: [
     {
