@@ -86,6 +86,12 @@ const default_configuration = {
               icon: "clock-hour-10",
               icon_color: palette.peach,
             },
+            {
+              name: "torrentday",
+              url: "https://torrentday.com",
+              icon: "brand-reddit",
+              icon_color: palette.green,
+            },
           ],
         },
         {
